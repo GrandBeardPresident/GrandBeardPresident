@@ -1,0 +1,91 @@
+{
+	// Place your snippets for c here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+ "Basic CP structure": {
+	"prefix": ";Cp",
+	 	"body": [
+	 		"#include<stdio.h>",
+      "#include<conio.h>",
+      "",	 		
+      "void main()",
+			"{",			 
+      "clrscr(); ",      
+      "int $1; ",
+      "",
+      "printf($2);",
+      "scanf($5%$3$6,&$4);",
+      "$7",
+      "getch();",
+      "}",
+	 	],
+	 	"description": ""
+	},
+//
+// Scanf snippet :
+"Users Scanf snippet": {
+  "prefix": ";Scanf",
+     "body": [
+      "scanf($3%$1$4,&$2);",
+      "$5",
+     ],
+     "description": "scanf snippets"
+   },
+//
+// Printf snippets :
+"Users Printf snippet":{
+  "prefix": ";Printf",
+  "body": [
+    "printf($3$1$4,$2);",
+    "$5",
+  ],
+},
+//
+// math 
+"Users mathio snippet": {
+  "prefix": ";math",
+  "body": [
+   "#include<math.h>",
+   "$1",
+  ],
+  "description": "math.h snippet"
+},
+//
+// For loop :
+"Users For Loop Snippets":{
+  "prefix": ";For",
+  "body": [
+    "for(i=$1;i$2;$3)",
+    "{",
+    " $4 ",
+    "}"
+  ],
+  "description": "for(initialization;Condition;Operate)"
+},
+//
+// Do Loop :
+"Users Do Loop Snippets":{
+  "prefix": ";Do",
+  "body": [
+    "do",
+    "{",
+      " ",
+      "$2",
+    "}",
+    "while($1)"
+  ]
+},
+//
+// While Loop :
+"Users While Loop Snippets":{
+  "prefix": ";While",
+  "body": [
+    "while($1)",
+    "{",
+     " $2",
+    "}",
+  ]
+},
+}
