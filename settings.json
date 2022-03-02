@@ -1,0 +1,32 @@
+{
+  "editor.fontSize": 20,
+  "editor.tabSize": 2,
+  "files.autoSave": "afterDelay",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.wordWrap": "on",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.enablePreview": false,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.fullReload": true,
+  "liveServer.settings.useLocalIp": true,
+  "liveServer.settings.useWebExt": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "bracketPairColorizer.depreciation-notice": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Material Theme Ocean",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "code-runner.runInTerminal": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.autoSaveDelay": 250,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "linter.debug": true,
+  "workbench.startupEditor": "none"
+}
